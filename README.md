@@ -77,20 +77,15 @@ This repository contains clean, modular, and easy-to-run Python implementations 
 ## 📁 Repository Structure
 
 ```text
-├── boosting_models.ipynb        # 📓 Jupyter Notebook: Boosting benchmarks with plots
+├── boosting_models.ipynb        # 📓 Jupyter Notebook: Boosting regression benchmarks with plots
 ├── classification_models.ipynb  # 📓 Jupyter Notebook: Classification benchmarks with plots
 ├── clustering_models.ipynb      # 📓 Jupyter Notebook: Clustering benchmarks with 2D plots
 ├── insurance_pre.csv            # Boosting dataset (Insurance charges)
 ├── Social_Network_Ads.csv       # Classification dataset (Purchased ads)
 ├── Mall_Customers.csv           # Clustering dataset (Customer segmentation)
-├── boosting_models.py           # Boosting Python script
-├── classification_models.py     # Classification Python script
-├── clustering_models.py         # Clustering Python script
-├── main.py                      # Master Python script
 ├── results_boosting.csv         # Tabular export for boosting results
 ├── results_classification.csv   # Tabular export for classification results
 ├── results_clustering.csv       # Tabular export for clustering results
-├── RESULTS_SUMMARY.md           # Markdown benchmark summary
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation & results
 ```
@@ -104,17 +99,13 @@ This repository contains clean, modular, and easy-to-run Python implementations 
    pip install -r requirements.txt
    ```
 
-2. **Open in Jupyter Notebook / Lab / VS Code**:
+2. **Launch Jupyter**:
    ```bash
    jupyter notebook
    ```
-   Open any of the pre-computed, visual notebooks:
+   Open and run any of the notebooks directly:
    - `boosting_models.ipynb`
    - `classification_models.ipynb`
    - `clustering_models.ipynb`
 
-3. **Or run from command line**:
-   ```bash
-   python main.py
-   ```
 
