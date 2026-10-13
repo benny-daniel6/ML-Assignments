@@ -1,0 +1,9 @@
+Algorithm,Accuracy,F1-Score,Precision,Recall,ROC-AUC
+Naive Bayes,0.9375,0.9091,0.9259,0.8929,0.9856
+K-Nearest Neighbors,0.925,0.8966,0.8667,0.9286,0.9533
+Support Vector Machine (RBF),0.925,0.8966,0.8667,0.9286,0.9677
+Logistic Regression,0.8875,0.8235,0.913,0.75,0.9705
+Random Forest,0.875,0.8214,0.8214,0.8214,0.9454
+Gradient Boosting,0.875,0.8148,0.8462,0.7857,0.9478
+XGBoost,0.875,0.8214,0.8214,0.8214,0.9478
+Decision Tree,0.825,0.75,0.75,0.75,0.8077
